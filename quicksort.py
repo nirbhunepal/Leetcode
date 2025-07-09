@@ -6,7 +6,7 @@ def sort(nums):
     left = []
     right = []
     for i in nums[1:]:
-        if i <= first:
+        if i < first:
             left.append(i)
         else:
             right.append(i)
